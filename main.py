@@ -9,7 +9,8 @@ Created on Wed Jan  1 19:29:43 2025
 
 import streamlit as st
 import pandas as pd
-import tabs.tab2_contents as tab2_contents
+# import tabs.tab2_contents as tab2_contents
+import tabs.tab_contents_people as tab_contents_people
 import tabs.tab_contents_res  as tab_contents_res
 import tabs.tab_contents_pubs as tab_contents_pubs
 import tabs.tab_contents_acad as tab_contents_acad
@@ -20,28 +21,31 @@ import tabs.tab_contents_DBSW as tab_contents_DBSW
 st.set_page_config(page_title="TES@KERI")
 
 
-st.title("Byungki Ryu (Scientist at KERI)")
-st.subheader(":red[T]hermo-:red[E]lectric :red[S]cience Group")
+st.title("Byungki Ryu")
+st.subheader(":red[T]hermo-:red[E]lectric :red[S]cience Group at KERI")
 
 
-tab_res, tab_team, tab_pubs,   tab_acad, tab5, tab6,   tab_BR, tab_DBSW = st.tabs([
+tab_res, tab_people, tab_pubs,   tab_acad, tab_news,   tab_about, tab_dbswhw = st.tabs([
                                                     "RESEARCH", 
-                                                    "People",        ##tab2
+                                                    "PEOPLE",        ##tab2
                                                     "Publications",  ## tab_pubs
                                                     "Academic",      ## tab_acad
-                                                    "Visitors",
+                                                    # "Visitors",
                                                     "NEWS",  
-                                                    "cvBR",           ##tab7
-                                                    "Data-SW-HW"      ##tab8
-                                                    ])         
+                                                    "About",           ##tab7
+                                                    "Data / SW / HW"      ##tab8
+                                                    ])
+
 
 
 with tab_res:
     tab_contents_res.show_vision()
     tab_contents_res.show_research_interest()
     
-with tab_team:
-    tab2_contents.show_team()
+with tab_people:
+    # tab_contents_people.show_team()
+    tab_contents_people.show_team2() 
+    
 
 with tab_pubs:
     tab_contents_pubs.show_publications_by_years()
@@ -49,12 +53,9 @@ with tab_pubs:
 with tab_acad:
     tab_contents_acad.show_presentations_by_years()
 
-with tab_BR:
+with tab_about:
     tab_contents_BR.show_BRCV()
     
-with tab_DBSW:
+with tab_dbswhw:
     tab_contents_DBSW.show_link()
     
-# with tab3:  
-#     st.subheader(":red[Select TE Mat. DB]")
-#     # show_tab3(st)
