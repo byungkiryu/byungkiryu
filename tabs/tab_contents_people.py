@@ -13,14 +13,14 @@ import pandas as pd
 HERE = os.path.dirname(os.path.abspath(__file__))
 EXCEL_PATH = os.path.join(HERE, "ZDATA__tes_at_keri_team.xlsx")
 
-def show_team():    
+def show_team_old():    
     # st.header(":blue[Byungki Ryu, Dr.]")
     df_team = pd.read_excel(EXCEL_PATH, sheet_name="people")
     df_team.drop(["id","status"],axis=1,inplace=True)
     st.dataframe(df_team)
 
 
-def show_team2():
+def show_team():
     df_team = pd.read_excel(EXCEL_PATH, sheet_name="people")
         
     # status_list = ['current','alumni','visitors']
