@@ -13,6 +13,7 @@ import tabs.tab_contents_people as tab_contents_people
 import tabs.tab_contents_res    as tab_contents_res
 import tabs.tab_contents_pubs   as tab_contents_pubs
 import tabs.tab_contents_acad   as tab_contents_acad
+import tabs.tab_contents_news   as tab_contents_news
 import tabs.tab_contents_BR     as tab_contents_BR
 import tabs.tab_contents_DBSW   as tab_contents_DBSW
 
@@ -36,7 +37,7 @@ st.subheader(":blue[T]hermo-:blue[E]lectric :blue[S]cience (:blue[TES]) Group at
 tab_res, tab_people, tab_pubs,   tab_acad, tab_news,   tab_about, tab_dbswhw = st.tabs([
                                                     "RESEARCH", 
                                                     "PEOPLE",        ##tab2
-                                                    "PAPERS",  ## tab_pubs
+                                                    "PUBLICATIONS",  ## tab_pubs
                                                     "PRESENTATIONS",      ## tab_acad
                                                     "NEWS",  
                                                     "About",           ##tab7
@@ -58,6 +59,9 @@ with tab_pubs:
 with tab_acad:
     tab_contents_acad.show_presentations_by_years()
 
+with tab_news:
+    tab_contents_news.show_recentnews()
+    
 with tab_about:
     tab_contents_BR.show_BRCV()
     

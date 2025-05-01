@@ -128,14 +128,14 @@ def show_BRCV():
     st.markdown("---")
     
     # Skills
-    # st.header("Skills")
-    # st.markdown("""
-    # - **Technical Expertise**: Thermoelectric transport, DFT simulations, numerical modeling  
-    # - **Software**: VASP, Python, MATLAB, COMSOL Multiphysics  
-    # - **Languages**: Korean (native), English (fluent)
-    # """)
+    st.header("Skills")
+    st.markdown("""
+    - **Technical Expertise**: Thermoelectric transport, DFT simulations, numerical modeling  
+    - **Software**: VASP, Python, Excel, COMSOL Multiphysics, m3gnet, SevenNet  
+    - **Languages**: Korean (native), English (professional working proficiency)
+    """)
     
-    st.markdown("---")
+    # st.markdown("---")
     # st.markdown("# :blue[Curriculum Vitae (CV)]")
     # st.markdown("## :blue[Dr. Byungki Ryu]")
     # st.markdown("### :blue[Principal Researher ]")
