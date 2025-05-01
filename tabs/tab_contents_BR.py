@@ -13,7 +13,7 @@ import streamlit as st
 
 def show_BRCV():
     
-    st.header("About Byungki Ryu")
+    st.header("🪪 About Byungki Ryu 👤")
     
     # Header
     # st.title(":blue[Curriculum  Vitae]")
