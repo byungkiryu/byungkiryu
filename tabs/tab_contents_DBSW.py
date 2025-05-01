@@ -9,7 +9,6 @@ Created on Wed Jan  1 19:29:43 2025
 import os
 import streamlit as st
 import pandas as pd
-import numpy as np
 
 
 HERE = os.path.dirname(os.path.abspath(__file__))
