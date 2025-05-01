@@ -30,9 +30,9 @@ def show_BRCV():
     
     st.markdown("""
     **Professor**  
-    Electric Energy and Materials Engineering   
-    School of KERI   
-    University of Science and Technology (UST), Korea
+    Electric Energy and Materials Engineering (KERI School)   
+    University of Science and Technology (UST)
+    Changwon-si, 51543, South Korea 
     """)
     
     st.markdown("---")
@@ -40,8 +40,8 @@ def show_BRCV():
     # Professional Summary
     st.header(":blue[Professional Summary]")
     st.write("""
-    Innovative researcher specializing in **thermoelectric materials**, **device physics**, and **materials design**. 
-    Expert in first-principles calculations, thermoelectric device efficiency, and semiconductor defect analysis.  
+    Innovative transdiciplinary researcher over **thermoelectrics**, **device physics**, and **materials design**.    
+    Expert in 1st-principles calculations, thermoelectric device efficiency, defects and interfaces in solids.  
     Published 90+ peer-reviewed papers.
     """)
     
@@ -74,7 +74,8 @@ def show_BRCV():
     - Have investigated :red[**thermoelectric instability & device physics**] in thermoelectric modules.
     - Developed :red[**thermoelectcric algebraic framework**] within const-Seebeck approx.
     - Proposed :red[**three thermoelectric degrees of freedom**] for thermoelectric conversion efficiency.
-    - Developed thermoelectric device simulator :red[***pykeri 2019***].  
+    - Developed thermoelectric device simulator :red[***pykeri 2019***] (core developer: Dr. Jaywan Chung).  
+    - Have developed machine learning model representation for thermoelectric property curves :red[***LaNN***] (core developer: Dr. Jaywan Chung).  
     - Have supervised postdoctoral researchers and led thermoelectric design projects.
     """)
     

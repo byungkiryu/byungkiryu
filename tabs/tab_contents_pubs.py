@@ -30,9 +30,12 @@ def show_publications_by_years():
     
     years_list = df_publications['Publication Year'].unique()
     
+    
     for year in years_list:
     # year = 2022
         show_publications_year(df_publications, year)
+        if (year != years_list[-1]):
+            st.markdown("---")
     pass
     
 

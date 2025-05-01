@@ -13,21 +13,27 @@ import streamlit as st
 
 def show_vision():
     st.header(":blue[Vision and Direction]")
+    # st.markdown("""
+    #             We aim to understand fundamentals of  
+    #             -- :red[thermelectric phenomena] from materials to energy-conversion application,  
+    #             -- :red[thermolectric as numbers] via 1st-princples calculations, data, machine learning, and evaluation. 
+                
+    #             We aim to apply thermoelectric conversion to    
+    #             -- :red[power generation, cooling and thermal management],   
+    #             -- :red[thermal-information technology]
+                
+    #             We aim to develop   
+    #             -- :red[high-efficiency thermoelectric materials] beyond ZT,  
+    #             -- :red[thermoelectric power generator] modules and systems.  
+                
+    #             """)
     st.markdown("""
-                We aim to understand fundamentals of  
-                -- :red[thermelectric phenomena] from materials to energy-conversion application,  
-                -- :red[thermolectric as numbers] via ab-initio, data, machine learning, and evaluation. 
-                
-                We aim to apply thermoelectric conversion to    
-                -- :red[power generation, cooling and thermal management],   
-                -- :red[thermal-information technology]
-                
-                We aim to develop   
-                -- :red[high-efficiency thermoelectric materials] beyond ZT,  
-                -- :red[thermoelectric power generator] modules and systems.  
+                We aim    
+                -- To understand the fundamental of thermoelectric phenomena.   
+                -- To investigate a secret of materials science and physics.   
+                -- To brdige the fundamental and real-world.    
                 
                 """)
-
 
 def show_research_interest():
 

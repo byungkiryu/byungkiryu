@@ -8,24 +8,21 @@ Created on Wed Jan  1 19:29:43 2025
 
 
 import streamlit as st
-import pandas as pd
-# import tabs.tab2_contents as tab2_contents
+
 import tabs.tab_contents_people as tab_contents_people
 import tabs.tab_contents_res    as tab_contents_res
 import tabs.tab_contents_pubs   as tab_contents_pubs
 import tabs.tab_contents_acad   as tab_contents_acad
 import tabs.tab_contents_BR     as tab_contents_BR
 import tabs.tab_contents_DBSW   as tab_contents_DBSW
-# from tabs.tab7_contents import show_tab7
 
-# st.set_page_config(page_title="TES@KERI")
+
+
 st.set_page_config(
     page_title="BR",
     page_icon="./images/B.png",  # 또는 URL/이미지 경로 사용 가능
     layout="centered"
 )
-
-# st.title("Byungki Ryu (BR)")
 
 
 col1, col2 = st.columns([1,5])
@@ -33,7 +30,7 @@ with col1:
     st.image("./images/B.png", width=100)
 with col2:
     st.title("Byungki Ryu (BR)")
-st.subheader(":red[T]hermo-:red[E]lectric :red[S]cience Group at KERI")
+st.subheader(":blue[T]hermo-:blue[E]lectric :blue[S]cience (:blue[TES]) Group at KERI")
 
 
 tab_res, tab_people, tab_pubs,   tab_acad, tab_news,   tab_about, tab_dbswhw = st.tabs([
