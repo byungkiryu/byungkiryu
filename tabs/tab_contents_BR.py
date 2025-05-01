@@ -30,7 +30,7 @@ def show_BRCV():
     
     st.markdown("""
     **Professor**  
-    Electric Energy and Materials Engineering (KERI School)   
+    KERI School -- Electric Energy and Materials Engineering   
     University of Science and Technology (UST)
     Changwon-si, 51543, South Korea 
     """)
