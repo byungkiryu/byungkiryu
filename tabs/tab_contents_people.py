@@ -21,6 +21,7 @@ def show_team_old():
 
 
 def show_team():
+    
     df_team = pd.read_excel(EXCEL_PATH, sheet_name="people")
         
     # status_list = ['current','alumni','visitors']
