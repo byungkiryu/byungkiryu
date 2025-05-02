@@ -21,27 +21,24 @@ def show_presentations_by_years():
     st.header("🎓 Research Presentations")
     
     df_presentations = pd.read_excel(EXCEL_PATH, sheet_name="read")    
-    
     df_presentations['Date'] = pd.to_datetime( df_presentations['Date'])
-    # latest_date = df_publications['Date'].max().strftime("%Y-%m-%d")
-    # st.markdown(":grey[*publications as of {}, including journal articles, proceedings, data, thesis*]".format(latest_date))  
     
     years_list = df_presentations['Publication Year'].unique()
     
     for year in years_list:
-    # year = 2022
-        show_presentations_years(df_presentations, year)
-    pass
+        row = show_presentations_years(df_presentations, year)
     
+    return row
+
 
 
 def show_presentations_years(df_presentations, year):
 
     
-    df_pubs = df_presentations
-    df_pubs =     df_pubs[ df_pubs['Publication Year'] == year]
+    df = df_presentations
+    df =     df[ df['Publication Year'] == year]
     num_pubs = len(df_presentations)
-    num_pubs_year = len(df_pubs)
+    num_pubs_year = len(df)
     
     # printtemp = "{}   ({} pubs)".format(
     #                                     year,
@@ -50,17 +47,22 @@ def show_presentations_years(df_presentations, year):
     st.subheader(year)
     st.text("({} presentations)".format(num_pubs_year))
 
-    for index, row in df_pubs.iterrows():
+    for index, row in df.iterrows():
         paperindex = num_pubs-index
         itemType = row['Item Type']
         
         year = row['Publication Year']
         author = row.Author
         title = row.Title
-        date = row.Date.strftime("%Y-%m-%d")
+        date = row.Date.strftime("%Y-%b-%d")
         place = row.Place
         presentationtype = row['Type']
         meetingname = row['Meeting Name']
+
+        if (presentationtype == "Invited" and row.Author[0:6] == 'Ryu, B'):
+            presentationtype = ":green[Invited Talk]"
+        elif (presentationtype == "Invited" and row.Author[0:6] != 'Ryu, B'):
+            presentationtype = "Invited Talk, Co-author"
 
 
         printtemp="hello"
@@ -74,70 +76,16 @@ def show_presentations_years(df_presentations, year):
                                                                        year,
                                                                        author     ,                                                                  
                                                                        presentationtype,)
-
             
         # print(printtemp)
         st.markdown(printtemp)
     
-    return df_pubs
+    return row
 
 
 
-# def show_presentations(df_presentations):
-#     # df_publications = pd.read_excel("./tabs/ZDATA__presentations.xlsx", sheet_name="read")
-#     # st.header(":blue[Byungki Ryu, Dr.]")
-#     # cols = ['Publication','Title']
-    
-#     df_presentations['Date'] = pd.to_datetime( df_presentations['Date'])
-#     latest_date = df_presentations['Date'].max().strftime("%Y-%m-%d")
-#     st.markdown(":grey[*publications as of {}, including journal articles, proceedings, data, thesis*]".format(latest_date))  
-    
-#     cols = ['Key', 'Item Type', 'Publication Year', 'Author', 'Title',
-#            'Publication Title', 
-#            'Date', 
-#            'Place','Meeting Name',
-#            'Type', 
-#            ]
-    
-#     df_pubs = df_presentations[ cols ]
-#     # df_pubs = df_publications
-#     num_pubs = len(df_pubs)
-        
-
-#     for index, row in df_pubs.iterrows():
-#         paperindex = num_pubs-index
-#         itemType = row['Item Type']
-        
-#         year = row['Publication Year']
-#         author = row.Author
-#         title = row.Title
-#         date = row.Date.strftime("%Y-%m-%d")
-#         place = row.Place
-#         presentationtype = row['Type']
-#         meetingname = row['Meeting Name']
-
-
-#         printtemp="hello"
-#         if (itemType == 'presentation') :
-#             printtemp = ":blue[[{}] **{}**]  \n:red[*{}*],  **{}**, on {} ({}).   \n Authors: {}  \nPresentation Type: {} ".format(
-#                                                                        paperindex,
-#                                                                        title,
-#                                                                        meetingname,
-#                                                                        place,
-#                                                                        date,
-#                                                                        year,
-#                                                                        author     ,                                                                  
-#                                                                        presentationtype,)
-
-            
-#         print(printtemp)
-#         st.markdown(printtemp)
-        
-
-    
-#     return df_pubs
 
 if __name__=="__main__":
-    df_presentations = pd.read_excel("./ZDATA__presentations.xlsx", sheet_name="read")
-    df_pubs = show_presentations(df_presentations)
-    print( df_pubs.columns)
+    
+    row = show_presentations_by_years()
+    print( row )
