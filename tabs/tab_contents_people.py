@@ -11,7 +11,7 @@ import streamlit as st
 import pandas as pd
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-EXCEL_PATH = os.path.join(HERE, "ZDATA__tes_at_keri_team.xlsx")
+EXCEL_PATH = os.path.join(HERE, "ZDATA__people.xlsx")
 
 def show_team_old():    
     # st.header(":blue[Byungki Ryu, Dr.]")
