@@ -23,10 +23,11 @@ Byungki Ryu is a transdisciplinary thermoelectric researcher exploring the funda
 
 ## 📂 Research Links
 
-- 🔗 [Personal Research Homepage (Streamlit)](https://byungkiryu.streamlit.app/)  
+- 🧭 [Main Link Hub – All Research, Databases, and Projects](https://byungkiryu.github.io/link-home/)  
+- 🔗 [Personal Research Homepage (Streamlit)](https://byungkiryu.streamlit.app/) – *may take up to 30 seconds to load if idle*  
 - 🧪 [Legacy Personal Page (Google Sites)](https://sites.google.com/view/tesimulator/)  
-- 📊 [Thermoelectric Database – teMatDb](https://tematdbv114.streamlit.app/)  
-- 🧱 [Alloy Design Database](https://byungkiryu-alloydesigndb-demo-v0-33-main-v0-33-u86ejf.streamlit.app/)
+- 📊 [Thermoelectric Database – teMatDb](https://tematdbv114.streamlit.app/) – *may take up to 30 seconds to load if idle*  
+- 🧱 [Alloy Design Database](https://byungkiryu-alloydesigndb-demo-v0-33-main-v0-33-u86ejf.streamlit.app/) – *may take up to 30 seconds to load if idle*
 
 ## 📫 Contact
 
