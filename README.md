@@ -33,7 +33,8 @@ Byungki Ryu is a transdisciplinary thermoelectric researcher exploring the funda
 ## 📫 Contact
 
 - Email: [byungkiryu@keri.re.kr](mailto:byungkiryu@keri.re.kr)
-
+- 🔗 Scan the QR to visit Main Link Hub:  
+  ![QR Code](./images/qrcode_byungkiryu.github.io.png)
 <!---
 byungkiryu/byungkiryu is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
