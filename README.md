@@ -4,7 +4,14 @@ I am a Principal Researcher at the **Korea Electrotechnology Research Institute 
 
 ## 🧭 Research Statement
 
-Byungki Ryu is a transdisciplinary thermoelectric researcher exploring the fundamental principles of energy conversion, material-device coupling, and quantum-informed interface and defect design for next-generation thermoelectric systems. He leverages first-principles modeling, FEM-based simulations, experimental design, and machine learning–assisted property analysis. His recent work focuses on enhancing thermoelectric generator performance, developing thermal information encoding strategies, and expanding the understanding of incommensurate (irrational-ratio) interface structures through the integration of data-centric and physics-informed approaches.
+Byungki Ryu is a transdisciplinary thermoelectric scientist, over theory and experiment: 
+exploring the fundamental physics to application, phenomena to energy conversion, 
+material & device interaction, 
+and designing quantum-informed interface and defect structures for next-generation thermoelectric systems. 
+His recent work focuses on enhancing thermoelectric generator performance 
+and understanding of incommensurate inter-phase boundaries.
+His intersts expand to develop thermal information encoding strategies.
+
 
 ## 🔬 Research Expertise
 

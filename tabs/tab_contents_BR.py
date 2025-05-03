@@ -37,12 +37,34 @@ def show_BRCV():
     
     st.markdown("---")
     
-    # Professional Summary
-    st.header(":blue[Professional Summary]")
+    # # Professional Summary
+    # st.header(":blue[Professional Summary]")
+    # st.write("""
+    # Innovative transdiciplinary researcher over **thermoelectrics**, **device physics**, and **materials design**.    
+    # Expert in 1st-principles calculations, thermoelectric device efficiency, defects and interfaces in solids.  
+    # Published 90+ peer-reviewed papers.
+    # """)
+    
+    # Research Statement
+    st.header(":blue[Research Statement]")
     st.write("""
-    Innovative transdiciplinary researcher over **thermoelectrics**, **device physics**, and **materials design**.    
-    Expert in 1st-principles calculations, thermoelectric device efficiency, defects and interfaces in solids.  
-    Published 90+ peer-reviewed papers.
+    Byungki Ryu is a transdisciplinary thermoelectric scientist, over theory and experiment: 
+    exploring the fundamental physics to application, phenomena to energy conversion, 
+    material & device interaction, 
+    and designing quantum-informed interface and defect structures for next-generation thermoelectric systems. 
+    His recent work focuses on enhancing thermoelectric generator performance 
+    and understanding of incommensurate inter-phase boundaries.
+    His intersts expand to develop thermal information encoding strategies.
+    """)
+    
+    # Professional Summary
+    st.header(":blue[Research Expertise]")
+    st.write("""
+    - Thermoelectric materials and devices: from phenomena to performance design
+    - Defect physics, alloy and inter-phase boundaries (large-scale interfaces)
+    - First-principles, machine-learning potential, FEM-based calculations for materials and devices
+    - Experiment design & analysis of high-performance & reliable thermoelectrics
+    - Thermoelectric data & machine learning material property prediction
     """)
     
     st.markdown("---")
@@ -67,11 +89,13 @@ def show_BRCV():
     st.subheader("Principal Researcher")  
     st.write("*Korea Electrotechnology Research Institute (KERI)* | 2013.12.–Present")
     st.write("""
+    - Have investiated :red[**general efficiency theory**] of thermoelectric conversion.
     - Have conducted advanced research on :red[**thermoelectric materials & devices**].  
     - Have conducted large-scale interface modelling for :red[**alloys & interfaces**].
     - Have investigated intrinsic, extrinsic, and complexes :red[**defects in thermoelectric materials**].
     - Have investigated :red[**thermoelectric metastable structure**].
     - Have investigated :red[**thermoelectric instability & device physics**] in thermoelectric modules.
+    - Have investigated :red[**thermoelectric data structure**] for material properties and device performances.
     - Developed :red[**thermoelectcric algebraic framework**] within const-Seebeck approx.
     - Proposed :red[**three thermoelectric degrees of freedom**] for thermoelectric conversion efficiency.
     - Developed thermoelectric device simulator :red[***pykeri 2019***] (core developer: Dr. Jaywan Chung).  
