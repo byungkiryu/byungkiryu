@@ -35,8 +35,6 @@ def show_link_each(df_link, contenttype):
         content = row.content 
         link = row.link
         
-        
-        
         st.subheader(":blue[{}]".format(name) )  
         st.write("""
                  Content: {}       

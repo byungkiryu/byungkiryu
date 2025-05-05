@@ -21,16 +21,16 @@ import tabs.tab_contents_DBSW   as tab_contents_DBSW
 
 st.set_page_config(
     page_title="BR@TES",
-    # page_icon="./images/B.png",  # 또는 URL/이미지 경로 사용 가능
-    page_icon="./images/TES_128.png",  # 또는 URL/이미지 경로 사용 가능
+    page_icon="./images/B.png",  # 또는 URL/이미지 경로 사용 가능
+    # page_icon="./images/TES_128.png",  # 또는 URL/이미지 경로 사용 가능
     layout="centered"
 )
 
 
 col1, col2 = st.columns([1,5])
 with col1:
-    # st.image("./images/B.png", width=95)
-    st.image("./images/TES_256.png", width=100)
+    st.image("./images/B.png", width=95)
+    # st.image("./images/TES_256.png", width=100)
 with col2:
     st.title("Byungki Ryu (BR)")
 st.subheader(":blue[T]hermo-:blue[E]lectric :blue[S]cience (:blue[TES]) Group at KERI")
@@ -42,8 +42,8 @@ tab_res, tab_people, tab_pubs,   tab_acad, tab_news,   tab_about, tab_dbswhw = s
                                                     "PUBLICATIONS",  ## tab_pubs
                                                     "PRESENTATIONS",      ## tab_acad
                                                     "NEWS",  
-                                                    "About",           ##tab7
-                                                    "Data / SW / HW"      ##tab8
+                                                    "About BR",           ##tab7
+                                                    "Link (Data / SW)"      ##tab8
                                                     ])
 
 

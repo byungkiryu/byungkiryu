@@ -37,34 +37,38 @@ def show_BRCV():
     
     st.markdown("---")
     
-    # # Professional Summary
-    # st.header(":blue[Professional Summary]")
-    # st.write("""
-    # Innovative transdiciplinary researcher over **thermoelectrics**, **device physics**, and **materials design**.    
-    # Expert in 1st-principles calculations, thermoelectric device efficiency, defects and interfaces in solids.  
-    # Published 90+ peer-reviewed papers.
-    # """)
+    # Professional Summary
+    st.header(":blue[Professional Summary]")
+    st.write("""
+    Innovative transdiciplinary researcher in **thermoelectrics**, **device physics**, and **materials design**.    
+    Expert in 1st-principles calculations, thermoelectric device efficiency, defects and interfaces in solids.  
+    Published 90+ peer-reviewed papers.
+    """)
     
     # Research Statement
     st.header(":blue[Research Statement]")
     st.write("""
-    Byungki Ryu is a transdisciplinary thermoelectric scientist, over theory and experiment: 
-    exploring the fundamental physics to application, phenomena to energy conversion, 
-    material & device interaction, 
-    and designing quantum-informed interface and defect structures for next-generation thermoelectric systems. 
-    His recent work focuses on enhancing thermoelectric generator performance 
-    and understanding of incommensurate inter-phase boundaries.
-    His intersts expand to develop thermal information encoding strategies.
+    Byungki Ryu is a transdisciplinary scientist in thermoelectric energy conversion:
+    spanning fundamental phenomena to practical applications, 
+    theoretical modeling to experimental validation, 
+    and materials and devices to system-level integration.
+    
+    His recent research focuses on enhancing the performance of thermoelectric generators 
+    and unraveling the physics of incommensurate inter-phase boundaries.
+    
+    His broader research interests extend to thermal management, 
+    thermoelectric cooling, and temperature-driven information technology, 
+    aiming to bridge fundamental science and engineering innovation.
     """)
     
     # Professional Summary
     st.header(":blue[Research Expertise]")
     st.write("""
-    - Thermoelectric materials and devices: from phenomena to performance design
-    - Defect physics, alloy and inter-phase boundaries (large-scale interfaces)
-    - First-principles, machine-learning potential, FEM-based calculations for materials and devices
-    - Experiment design & analysis of high-performance & reliable thermoelectrics
-    - Thermoelectric data & machine learning material property prediction
+    - **Thermoelectric materials and devices**: from phenomena to performance  
+    - **Defect physics and interface science**: alloy design, incommensurate phase boundaries and interfaces
+    - **Computational methods**: first-principles, machine learning potentials (MLPs), FEM-based simulations  
+    - **Experimental validation**: design to analysis of high-performance and reliable devices
+    - **Data-driven research**: high-quality thermoelectric property data and ML-based property prediction
     """)
     
     st.markdown("---")
