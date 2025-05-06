@@ -33,7 +33,7 @@ His intersts expand to develop thermal information encoding strategies.
 - 🧭 [Main Link Hub – All Research, Databases, and Projects](https://byungkiryu.github.io/link-home/)  
 - 🔗 [Personal Research Homepage (Streamlit)](https://byungkiryu.streamlit.app/) – *may take up to 30 seconds to load if idle*  
 - 🧪 [Legacy Personal Page (Google Sites)](https://sites.google.com/view/tesimulator/)  
-- 📊 [Thermoelectric Database – teMatDb](https://tematdbv114.streamlit.app/) – *may take up to 30 seconds to load if idle*  
+- 📊 [Thermoelectric Database – teMatDb](https://tematdb.streamlit.app/) – *may take up to 30 seconds to load if idle*  
 - 🧱 [Alloy Design Database](https://byungkiryu-alloydesigndb-demo-v0-33-main-v0-33-u86ejf.streamlit.app/) – *may take up to 30 seconds to load if idle*  
 - ⚙️ [TESimulator – Thermoelectric Efficiency Calculator](https://tes.keri.re.kr)
 
