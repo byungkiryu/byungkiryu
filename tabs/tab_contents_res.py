@@ -55,7 +55,7 @@ def show_research_interest():
                 
                 
                 :red[thermelectric data and machine learning]   
-                teMatDb: an ultra-high quality TE material property database and self-consistent ZT filter.(\*) [DB link](https://tematdbv114.streamlit.app/)                      
+                teMatDb: an ultra-high quality TE material property database and self-consistent ZT filter.(\*) [DB link](https://tematdbv.streamlit.app/)                      
                 LaNN: an artificial neural network model predicting thermoelectric property curves.   
                 Online e.g. 
                 [BiTe](https://jaywan-chung.github.io/ml-tep-BiTe/),
