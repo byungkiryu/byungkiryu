@@ -15,7 +15,6 @@ import tabs.tab_contents_pubs   as tab_contents_pubs
 import tabs.tab_contents_acad   as tab_contents_acad
 import tabs.tab_contents_news   as tab_contents_news
 import tabs.tab_contents_BR     as tab_contents_BR
-import tabs.tab_contents_maps   as tab_contents_maps
 import tabs.tab_contents_DBSW   as tab_contents_DBSW 
 
 
@@ -37,14 +36,13 @@ with col2:
 st.subheader(":blue[T]hermo-:blue[E]lectric :blue[S]cience (:blue[TES]) Group at KERI")
 
 
-tab_res, tab_people, tab_pubs,   tab_acad, tab_news,   tab_about, tab_maps, tab_dbswhw = st.tabs([
+tab_res, tab_people, tab_pubs,   tab_acad, tab_news,   tab_about, tab_dbswhw = st.tabs([
                                                     "RESEARCH", 
                                                     "PEOPLE",        ##tab2
                                                     "PUBLICATIONS",  ## tab_pubs
                                                     "PRESENTATIONS",      ## tab_acad
                                                     "NEWS",  
                                                     "About BR",           ##tab7
-                                                    "Maps",
                                                     "Link (Data / SW)"      ##tab8
                                                     ])
 
@@ -68,10 +66,6 @@ with tab_news:
     
 with tab_about:
     tab_contents_BR.show_BRCV()
-    
-with tab_maps:
-    tab_contents_maps.show_map_and_collaboration()
-    tab_contents_maps.show_where_I_have_been()
     
 with tab_dbswhw:
     tab_contents_DBSW.show_link()
