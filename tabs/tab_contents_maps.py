@@ -39,6 +39,7 @@ def show_map_and_collaboration():
     
     # (1) 점 데이터: 친구들 위치 점 표시
     df_map = pd.read_excel(PATH_MAP_collabo, sheet_name="read")
+    df_map = df_map.where(pd.notnull(df_map), None)
     
     # (2) 현재 위치 (KERI 본원 위치로 예시)
     lat = 035.190
@@ -86,6 +87,6 @@ def show_map_and_collaboration():
         
         
 if __name__=="__main__":
-    df_maps = pd.reda_excel( PATH_MAP_collabo , sheet_name="read")
+    df_maps = pd.read_excel( PATH_MAP_collabo , sheet_name="read")
     # print( "this is DB SW linker ")
     print(df_maps)
