@@ -88,4 +88,4 @@ def show_presentations_years(df_presentations, year):
 if __name__=="__main__":
     
     row = show_presentations_by_years()
-    print( row )
+    # print( row )
