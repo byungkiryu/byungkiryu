@@ -34,7 +34,7 @@ def show_where_I_have_been():
 #     st.map(df_map)
 
 
-def show_map_and_collaboration():
+def show_map_and_collaboration(seemap=False,seedf=True):
     st.subheader(":blue[TES at KERI] & :red[world-wide friends]")
     
     # (1) 점 데이터: 친구들 위치 점 표시
@@ -76,14 +76,15 @@ def show_map_and_collaboration():
     )
     
     # (6) 지도 렌더링
-    st.pydeck_chart(pdk.Deck(
-        map_style="mapbox://styles/mapbox/light-v9",
-        initial_view_state=view_state,
-        layers=[layer_all,  layer_current]
-    ))
-    
-    with st.expander("See world-wide friends:", expanded=False):   
-        st.dataframe(df_map)
+    if (seemap==True):
+        st.pydeck_chart(pdk.Deck(
+            map_style="mapbox://styles/mapbox/light-v9",
+            initial_view_state=view_state,
+            layers=[layer_all,  layer_current]
+        ))
+    if (seedf==True):
+        with st.expander("See world-wide friends:", expanded=False):   
+            st.dataframe(df_map)
         
         
 if __name__=="__main__":
