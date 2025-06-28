@@ -78,7 +78,8 @@ def show_map_and_collaboration(seemap=False,seedf=True):
     # (6) 지도 렌더링
     if (seemap==True):
         st.pydeck_chart(pdk.Deck(
-            map_style="mapbox://styles/mapbox/light-v9",
+            # map_style="mapbox://styles/mapbox/light-v9",
+            map_style="https://basemaps.cartocdn.com/gl/positron-gl-style/style.json",  # 무료 Carto 스타일
             initial_view_state=view_state,
             layers=[layer_all,  layer_current]
         ))
