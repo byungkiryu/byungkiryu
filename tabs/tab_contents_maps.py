@@ -83,7 +83,7 @@ def show_map_and_collaboration(seemap=False,seedf=True):
             layers=[layer_all,  layer_current]
         ))
     if (seedf==True):
-        with st.expander("See world-wide friends:", expanded=False):   
+        with st.expander("See world-wide friends:", expanded=True):   
             st.dataframe(df_map)
         
         
