@@ -42,7 +42,7 @@ def show_map_and_collaboration():
     df_map = df_map.where(pd.notnull(df_map), None)
     
     # (2) 현재 위치 (KERI 본원 위치로 예시)
-    lat = 035.190
+    lat = 35.190
     lon = 128.718
     
     # (3) View 설정 (줌인할 위치)
