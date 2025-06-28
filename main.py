@@ -70,8 +70,8 @@ with tab_about:
     tab_contents_BR.show_BRCV()
     
 with tab_maps:
-    seemap=False
-    seedf=True
+    seemap = True
+    seedf  = True
     tab_contents_maps.show_map_and_collaboration(seemap,seedf) 
     tab_contents_maps.show_where_I_have_been()
     
