@@ -103,7 +103,7 @@ def show_publications_year(df_publications, year):
             author = author + "  \n :grey[-- co-corresponding authored work]"
 
 
-        author = author + "     \n :grey[-- Publihsed on {}]".format(date)
+        author = author + "     \n :grey[-- Published on {}]".format(date)
             
         if (itemType == 'journalArticle') :
             printtemp = ":blue[[{}]    **{}**]  \n:red[*{}*]  **{}**, {} ({}).   \n Authors: {}   \n https://doi.org/{}".format(
