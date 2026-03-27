@@ -80,4 +80,4 @@ with tab_dbswhw:
 
 st.write("")
 st.write("---")
-st.caption("© 2025 Byungki Ryu. All rights reserved.")    
+st.caption("© 2026 Byungki Ryu. All rights reserved.")    
