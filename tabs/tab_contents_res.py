@@ -31,7 +31,7 @@ def show_vision():
                 We aim    
                 -- To understand the fundamental of thermoelectric phenomena.   
                 -- To investigate a secret of materials science and physics.   
-                -- To brdige the fundamental and real-world.    
+                -- To bridge the fundamental and real-world.    
                 
                 """)
 
